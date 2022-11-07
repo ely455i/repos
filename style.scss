@@ -1,0 +1,323 @@
+/*Grids*/
+
+/*Colors*/
+$primary-color: #2F2F2F;
+$secondary-color: purple;
+$third-color: blue;
+
+/*Fonts*/
+$font-stack: Helvetica, sans-serif;
+
+/*Mobilversion (Upp till Padda portrait)*/
+@media (max-width: 768px) {
+img {
+width: 100%;
+ }
+}
+
+/*Padda portrait*/
+@media (min-width: 769px) and (max-width: 992px) {
+img {
+width: 100%;
+ }
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+.tile--emoji-cursor {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>"), auto;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $primary-color;
+  font-family: $font-stack;
+  font-size: 100%
+
+}
+
+.p {
+  color: $primary-color;
+  font-size: 24px;
+  margin-left: 80px;
+  line-height: 32px;
+
+}
+
+.align-center p {
+  width: 50%;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+
+.p2 {
+  color: $primary-color;
+  font-size: 18px;
+  margin-left: 80px;
+  line-height: 28px;
+
+}
+
+.cta {
+  color: $primary-color;
+  font-size: 20px;
+  margin-left: 80px;
+
+}
+
+.logo {
+  float: left;
+  margin-right: 80px;
+  font-weight: bold;
+
+}
+
+.align-center img, .align-center video {
+ margin: 160px auto;
+ display: block;
+}
+
+img-2 {
+  margin-left: 80px;
+  font-size: 32px;
+}
+
+h2 {
+margin-left: 80px;
+font-size: 48px;
+margin-top: 218px;
+line-height: 56px;
+}
+
+h3 {
+  color: $primary-color;
+  font-size: 32px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.h1 {
+  color: $primary-color;
+  font-size: 64px;
+  margin-left: 80px;
+  margin-top: 218px;
+}
+
+.h2 {
+  color: $primary-color;
+  font-size: 48px;
+  margin-left: 80px;
+  margin-top: 218px;
+
+}
+  /* Willy:s */
+
+a:hover{
+  color: black;
+
+}
+
+/* Fontstorlek kan skrivas i både % och pixlar. */
+.title {
+  color: $third-color;
+  font-family: $font-stack;
+  font-size: 100%
+
+}
+
+.myDiv {
+  /* if you just type "padding", it also works. Alltså padding: 120px;*/
+
+  background-color: #EFFBFD;
+  padding-top: 109px;
+  padding-right: 1019px;
+  padding-bottom: 275px;
+  padding-left: 108px;
+  margin-top: 80px;
+}
+
+
+.article {
+  width: 469px;
+  height: 269.12px;
+  background-color: black;
+
+}
+
+/* NAVBAR */
+
+ul {
+  list-style-type: none;
+  margin-top: 24px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FDFDFD;
+}
+
+li {
+  float: left;
+  margin-right: 80px;
+}
+
+.li {
+  margin-right: -80px;
+}
+
+li a {
+  display: block;
+  color: #2F2F2F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 80px;
+}
+
+/*
+li a:hover:not(.active) {
+  background-color: red;
+  margin-left: 80px;
+}
+*/
+
+.active {
+  background-color: #121926;
+  border-radius: 8px;
+  color: white;
+  &:hover {
+color: white;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #FDFDFD;
+  color: $primary-color;
+  margin-top: 364px;
+}
+
+.navbar {
+-webkit-text-size-adjust: 100%;
+color: #333;
+line-height: 20px;
+box-sizing: border-box;
+display: flex;
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+-webkit-box-pack: end;
+justify-content: flex-end;
+font-family: Helvetica;
+font-size: 20px;
+font-weight: 400;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 448px;
+
+}
+
+
+/* Bottom right text
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+*/
+
+
+/*
+article {
+
+display: flex;
+margin-left: 80px;
+margin-right: 120px;
+
+}
+
+img, section {
+
+flex: 1 0 200px;
+
+}
+*/
+
+
+.spreadsheet-img {
+;
+}
+
+.col-sm-6.sprint1-research {
+    padding-left: 80px;
+    padding-top: 80px;
+    margin: 56px 0px;
+    justify-content: center;
+
+    p{
+        font-size: 18px;
+        line-height: 30px;
+        font-family: "Helvetica";
+    }
+}
+
+h4 {
+  margin-left: 80px;
+}
+
+
+.custom-highlighting p::selection,
+.custom-highlighting h1::selection,
+.custom-highlighting h2::selection,
+.custom-highlighting h3::selection,
+.custom-highlighting h4::selection,
+.custom-highlighting a::selection,
+.custom-highlighting br::selection,
+.custom-highlighting u::selection,
+.custom-highlighting img::selection,
+
+ {
+  background-color: #FAD06B;
+  color: $primary-color;
+}
+
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #eff1f5;
+}
+
+body::-webkit-scrollbar-track{
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+  border-radius:5px;
+  background-color: #F8C037;
+  border:2px solid #eff1f5
+}
+
+
+a{
+  text-decoration: none;
+  color: $primary-color;
+}
